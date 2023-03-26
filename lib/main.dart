@@ -88,9 +88,18 @@ class _MyHomePageState extends State<MyHomePage> {
                 Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      Text("mode A"),
-                      Text("mode B"),
-                      Text("mode C"),
+                      Text("mode A",
+                          style: GoogleFonts.notoSansJavanese(
+                            color: Colors.white,
+                          )),
+                      Text("mode B",
+                          style: GoogleFonts.notoSansJavanese(
+                            color: Colors.white,
+                          )),
+                      Text("mode C",
+                          style: GoogleFonts.notoSansJavanese(
+                            color: Colors.white,
+                          )),
                     ]),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
